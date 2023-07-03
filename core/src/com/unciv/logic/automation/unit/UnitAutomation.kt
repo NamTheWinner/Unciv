@@ -16,10 +16,12 @@ import com.unciv.logic.civilization.managers.ReligionState
 import com.unciv.logic.map.mapunit.MapUnit
 import com.unciv.logic.map.tile.Tile
 import com.unciv.models.UnitActionType
+import com.unciv.models.ruleset.unique.StateForConditionals
 import com.unciv.models.ruleset.unique.UniqueType
 import com.unciv.ui.screens.worldscreen.unit.actions.UnitActions
 import com.unciv.ui.screens.worldscreen.unit.actions.UnitActionsPillage
 import com.unciv.ui.screens.worldscreen.unit.actions.UnitActionsUpgrade
+import com.unciv.utils.Log
 
 object UnitAutomation {
 
@@ -144,6 +146,20 @@ object UnitAutomation {
         return unit.isDestroyed // a successful upgrade action will destroy this unit
     }
 
+    private fun tryTransformUnit(unit: MapUnit): Boolean {
+        val civInfo = unit.civ
+        val unitTile = unit.getTile()
+        val transformUniques = unit.baseUnit().getMatchingUniques(
+            UniqueType.CanTransform,
+            StateForConditionals(unit = unit, civInfo = civInfo, tile = unitTile))
+
+        for (unique in transformUniques) {
+            Log.debug(unique.params.joinToString())
+        }
+
+        return unit.isDestroyed
+    }
+
     fun automateUnitMoves(unit: MapUnit) {
         check(!unit.civ.isBarbarian()) { "Barbarians is not allowed here." }
 
@@ -185,6 +201,8 @@ object UnitAutomation {
         if (tryGoToRuinAndEncampment(unit) && unit.currentMovement == 0f) return
 
         if (tryUpgradeUnit(unit)) return
+
+        if (tryTransformUnit(unit)) return
 
         // Accompany settlers
         if (tryAccompanySettlerOrGreatPerson(unit)) return
