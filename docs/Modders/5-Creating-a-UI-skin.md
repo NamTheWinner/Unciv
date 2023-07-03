@@ -1,0 +1,101 @@
+<!--- DO NOT REMOVE OR MODIFY THIS LINE UI_ELEMENT_TABLE_REGION -->
+| Directory | Name | Default shape | Image |
+|---|:---:|:---:|---|
+| AnimatedMenu/ | Button | roundedEdgeRectangleMid | |
+| CityScreen/ | CityPickerTable | roundedEdgeRectangle | |
+| CityScreen/CitizenManagementTable/ | AvoidCell | null | |
+| CityScreen/CitizenManagementTable/ | FocusCell | null | |
+| CityScreen/CitizenManagementTable/ | ResetCell | null | |
+| CityScreen/CityConstructionTable/ | AvailableConstructionsTable | null | |
+| CityScreen/CityConstructionTable/ | ConstructionsQueueTable | null | |
+| CityScreen/CityConstructionTable/ | Header | null | |
+| CityScreen/CityConstructionTable/ | PickConstructionButton | null | |
+| CityScreen/CityConstructionTable/ | PickConstructionButtonSelected | null | |
+| CityScreen/CityConstructionTable/ | QueueEntry | null | |
+| CityScreen/CityConstructionTable/ | QueueEntrySelected | null | |
+| CityScreen/CityScreenTileTable/ | Background | null | |
+| CityScreen/CityScreenTileTable/ | InnerTable | null | |
+| CityScreen/CityStatsTable/ | Background | null | |
+| CityScreen/CityStatsTable/ | InnerTable | null | |
+| CityScreen/ConstructionInfoTable/ | Background | null | |
+| CityScreen/ConstructionInfoTable/ | SelectedConstructionTable | null | |
+| CivilopediaScreen/ | EntryButton | null | |
+| General/ | AnimatedMenu | roundedEdgeRectangle | |
+| General/ | Border | null | |
+| General/ | ExpanderTab | null | |
+| General/ | HealthBar | null | |
+| General/ | KeyCapturingButton | roundedEdgeRectangleSmall | |
+| General/ | TabbedPager | null | |
+| General/ | Tooltip | roundedEdgeRectangle | |
+| General/Popup/ | Background | null | |
+| General/Popup/ | InnerTable | null | |
+| LanguagePickerScreen/ | LanguageTable | null | |
+| LoadGameScreen/ | BottomTable | null | |
+| LoadGameScreen/ | TopTable | null | |
+| MainMenuScreen/ | Background | null | |
+| MainMenuScreen/ | MenuButton | roundedEdgeRectangle | |
+| MapEditor/MapEditorToolsDrawer/ | Handle | null | |
+| ModManagementOptions/ | ExpanderTab | null | |
+| ModManagementScreen/ | BottomTable | null | |
+| ModManagementScreen/ | TopTable | null | |
+| MultiplayerScreen/ | BottomTable | null | |
+| MultiplayerScreen/ | TopTable | null | |
+| NewGameScreen/ | BottomTable | null | |
+| NewGameScreen/ | GameOptionsTable | null | |
+| NewGameScreen/ | MapOptionsTable | null | |
+| NewGameScreen/ | PlayerPickerTable | null | |
+| NewGameScreen/ | TopTable | null | |
+| NewGameScreen/NationTable/ | Background | null | |
+| NewGameScreen/NationTable/ | BorderTable | null | |
+| NewGameScreen/NationTable/ | RightInnerTable | null | |
+| NewGameScreen/NationTable/ | Title | null | |
+| NewGameScreen/PlayerPickerTable/ | PlayerTable | null | |
+| OverviewScreen/DiplomacyOverviewTab/ | CivTable | null | |
+| OverviewScreen/NotificationOverviewTable/ | Notification | roundedEdgeRectangle | |
+| OverviewScreen/ReligionOverviewTab/ | BeliefDescription | null | |
+| OverviewScreen/TradesOverviewTab/ | OffersTable | null | |
+| OverviewScreen/UnitOverviewTab/ | UnitSupplyTable | null | |
+| PlayerReadyScreen/ | Background | null | |
+| PolicyScreen/ | PolicyBranchAdoptButton | roundedEdgeRectangleSmall | |
+| PolicyScreen/ | PolicyBranchAdoptButtonBorder | roundedEdgeRectangleSmall | |
+| PolicyScreen/ | PolicyBranchBackground | rectangleWithOutline | |
+| PolicyScreen/ | PolicyBranchBackgroundBorder | rectangleWithOutline | |
+| PolicyScreen/ | PolicyBranchHeader | rectangleWithOutline | |
+| PolicyScreen/ | PolicyBranchHeaderBorder | rectangleWithOutline | |
+| PromotionScreen/ | PromotionButton | roundedEdgeRectangleMid | |
+| PromotionScreen/ | PromotionButtonBorder | roundedEdgeRectangleMidBorder | |
+| TechPickerScreen/ | Background | null | |
+| TechPickerScreen/ | BottomTable | null | |
+| TechPickerScreen/ | CurrentTechColor | 72, 147, 175 | |
+| TechPickerScreen/ | QueuedTechColor | 7*2, 46*2, 43*2 | |
+| TechPickerScreen/ | ResearchableTechColor | 28, 170, 0 | |
+| TechPickerScreen/ | ResearchedFutureTechColor | 127, 50, 0 | |
+| TechPickerScreen/ | ResearchedTechColor | 255, 215, 0 | |
+| TechPickerScreen/ | TechButtonIconsOutline | roundedEdgeRectangleSmall | |
+| VictoryScreen/ | CivGroup | roundedEdgeRectangle | |
+| WorldScreen/ | AirUnitTable | null | |
+| WorldScreen/ | BattleTable | null | |
+| WorldScreen/ | Notification | roundedEdgeRectangle | |
+| WorldScreen/ | PickTechButton | roundedEdgeRectangle | |
+| WorldScreen/ | TileInfoTable | null | |
+| WorldScreen/ | TutorialTaskTable | null | |
+| WorldScreen/ | UnitTable | roundedEdgeRectangleMid | |
+| WorldScreen/CityButton/ | AirUnitTable | roundedEdgeRectangleSmall | |
+| WorldScreen/CityButton/ | AirUnitTableBorder | roundedEdgeRectangleSmall | |
+| WorldScreen/CityButton/ | DefenceTable | roundedTopEdgeRectangleSmall | |
+| WorldScreen/CityButton/ | DefenceTableBorder | roundedTopEdgeRectangleSmallBorder | |
+| WorldScreen/CityButton/ | IconTable | roundedEdgeRectangleMid | |
+| WorldScreen/CityButton/ | IconTableBorder | roundedEdgeRectangleMidBorder | |
+| WorldScreen/CityButton/ | InfluenceBar | null | |
+| WorldScreen/Minimap/ | Background | null | |
+| WorldScreen/Minimap/ | Border | null | |
+| WorldScreen/NextTurn/ | ProgressBar | null | |
+| WorldScreen/NextTurn/ | ProgressColor | FOREST | |
+| WorldScreen/TopBar/ | LeftAttachment | roundedEdgeRectangle | |
+| WorldScreen/TopBar/ | ResourceTable | null | |
+| WorldScreen/TopBar/ | RightAttachment | roundedEdgeRectangle | |
+| WorldScreen/TopBar/ | StatsTable | null | |
+| WorldScreenMusicPopup/TrackList/ | Down | null | |
+| WorldScreenMusicPopup/TrackList/ | Over | null | |
+| WorldScreenMusicPopup/TrackList/ | Up | null | |
+<!--- DO NOT REMOVE OR MODIFY THIS LINE UI_ELEMENT_TABLE_REGION_END -->
